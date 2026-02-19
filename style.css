@@ -181,6 +181,35 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.lang-switcher {
+  text-align: center;
+  padding: 0.6rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.lang-switcher a {
+  color: var(--light-brown);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.lang-switcher a:hover {
+  color: var(--amber);
+  text-decoration: none;
+  opacity: 1;
+}
+
+.lang-switcher a.active-lang {
+  color: var(--amber);
+  background: var(--bg-card);
+}
+
 footer {
   text-align: center;
   padding: 2rem 1rem;
