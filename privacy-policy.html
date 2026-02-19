@@ -35,14 +35,17 @@
 
     <h3>1. Data Collection</h3>
     <p>This app may use Third-Party Authentication (Google, Apple, Microsoft, or Facebook), as per your choice, only to
-      provide secure access to your data. We access your email address and a unique identifier provided by the
+      provide secure access to your account. We access your email address and a unique identifier provided by the
       authentication provider to ensure only you can access your account.</p>
+    <p>User progress is stored locally on the device by default. Only users who subscribe to the Pro version will have
+      their progress stored in our cloud database (Supabase).</p>
     <p>You may also use the app anonymously without providing any personal information. Anonymous users have limited
       functionality (local-only progress).</p>
 
     <h3>2. Purpose of Data Collection</h3>
-    <p>We use your email to securely link your app progress and achievements to a cloud backup via Supabase, allowing
-      you to recover your data on any device. We do not collect, sell, or use your personal information for marketing
+    <p>For Pro subscribers, we use your email to securely link your app progress to a cloud backup via Supabase,
+      allowing you to recover your data on any device. No personal data beyond your email and authentication identifier
+      is stored — only app progress data. We do not collect, sell, or use your personal information for marketing
       purposes.</p>
 
     <h3>3. Third-Party Services</h3>
@@ -51,19 +54,22 @@
       <li><strong>Supabase</strong> — Authentication and cloud data storage. <a href="https://supabase.com/privacy"
           target="_blank" rel="noopener">Supabase Privacy Policy</a></li>
       <li><strong>Google AdMob</strong> — Advertising. AdMob may collect device identifiers and usage data to serve ads.
-        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>
+      </li>
       <li><strong>RevenueCat</strong> — Subscription and in-app purchase management. <a
           href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat Privacy Policy</a></li>
       <li><strong>Google Play Services / Sign-In</strong> — Authentication on Android devices. <a
           href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
       <li><strong>Apple Sign-In</strong> — Authentication on iOS devices. <a href="https://www.apple.com/legal/privacy/"
           target="_blank" rel="noopener">Apple Privacy Policy</a></li>
+      <li><strong>Facebook / Meta Login</strong> — Authentication. <a
+          href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Meta Privacy Policy</a></li>
     </ul>
 
     <h3>4. Data Storage and Retention</h3>
-    <p>Your progress, achievements, and app usage profile are stored in the cloud via Supabase for backup and
-      optimization purposes. Local data is also stored on your device using SharedPreferences for offline access and
-      performance.</p>
+    <p>All user progress is stored locally on your device by default. Only Pro subscribers have their app progress
+      backed up to the cloud via Supabase. No personal data is stored in the cloud beyond your email and authentication
+      identifier — only app progress data.</p>
     <p>We retain your data for as long as your account is active. Upon account deletion, all associated data is
       permanently removed from our servers.</p>
 
@@ -73,9 +79,11 @@
       You may opt out of personalized advertising through your device settings.</p>
 
     <h3>6. Children's Privacy</h3>
-    <p>Mister Bible is an educational app suitable for all ages. We do not knowingly collect personal information from
-      children under 13. If you believe a child under 13 has provided us with personal data, please contact us so we can
-      promptly delete it.</p>
+    <p>Mister Bible is an educational app suitable for all ages. The app does not require or collect personal
+      information to function — users can play entirely anonymously. The only scenario where personal data (email) is
+      involved is when a user voluntarily signs in with a third-party provider. We do not knowingly collect personal
+      information from children under 13. If you believe a child under 13 has provided us with personal data, please
+      contact us so we can promptly delete it.</p>
 
     <h3>7. Your Rights</h3>
     <p>You have the right to:</p>
