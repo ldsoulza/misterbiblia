@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;700;900&display=swap');
+
+:root {
+  --brown: #602C02;
+  --amber: #FD9713;
+  --light-brown: #8F6B4D;
+  --bg-dark: #3A1A00;
+  --bg-card: rgba(96, 44, 2, 0.35);
+  --text-light: #F5E6D3;
+  --text-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background: linear-gradient(160deg, #2A1200 0%, var(--bg-dark) 40%, #4A2200 100%);
+  color: var(--text-light);
+  min-height: 100vh;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 1px solid rgba(253, 151, 19, 0.2);
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 20px rgba(253, 151, 19, 0.3);
+}
+
+header h1 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 900;
+  font-size: 2.4rem;
+  color: var(--amber);
+  letter-spacing: 0.02em;
+}
+
+header p {
+  color: var(--light-brown);
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+
+nav {
+  text-align: center;
+  padding: 1.2rem 1rem;
+  background: rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(253, 151, 19, 0.1);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+nav a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--amber);
+  background: var(--bg-card);
+  border-color: rgba(253, 151, 19, 0.25);
+}
+
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+h2 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--amber);
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(253, 151, 19, 0.15);
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--text-white);
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+ul, ol {
+  margin: 0.5rem 0 1rem 1.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: var(--amber);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid rgba(253, 151, 19, 0.15);
+  border-radius: 10px;
+  padding: 1.8rem 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(253, 151, 19, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.card h3 {
+  color: var(--amber);
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+.card p {
+  color: var(--light-brown);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.effective-date {
+  color: var(--light-brown);
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid rgba(253, 151, 19, 0.1);
+  color: var(--light-brown);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  nav a {
+    font-size: 0.95rem;
+    padding: 0.35rem 0.8rem;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
