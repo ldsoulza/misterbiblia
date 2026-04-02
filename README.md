@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://ldsouza93.github.io/misterbiblia/">
-    <img src="https://img.shields.io/badge/Live_Site-ldsouza93.github.io%2Fmisterbiblia-FD9713?style=for-the-badge&labelColor=602C02" alt="Live Site">
+  <a href="https://ldsoulza.github.io/misterbiblia/">
+    <img src="https://img.shields.io/badge/Live_Site-ldsoulza.github.io%2Fmisterbiblia-FD9713?style=for-the-badge&labelColor=602C02" alt="Live Site">
   </a>
 </p>
 
@@ -28,10 +28,10 @@ The site is deployed via [GitHub Pages](https://pages.github.com/) and serves as
 
 | Page | Description |
 |------|-------------|
-| [**Privacy Policy**](https://ldsouza93.github.io/misterbiblia/privacy-policy.html) | Data collection, third-party services, user rights |
-| [**Terms of Service**](https://ldsouza93.github.io/misterbiblia/terms-of-service.html) | App usage rules, subscriptions, liability |
-| [**Disclaimer**](https://ldsouza93.github.io/misterbiblia/disclaimer.html) | Educational purpose, translation notes, no affiliation |
-| [**app-ads.txt**](https://ldsouza93.github.io/misterbiblia/app-ads.txt) | Authorized digital sellers for AdMob |
+| [**Privacy Policy**](https://ldsoulza.github.io/misterbiblia/privacy-policy.html) | Data collection, third-party services, user rights |
+| [**Terms of Service**](https://ldsoulza.github.io/misterbiblia/terms-of-service.html) | App usage rules, subscriptions, liability |
+| [**Disclaimer**](https://ldsoulza.github.io/misterbiblia/disclaimer.html) | Educational purpose, translation notes, no affiliation |
+| [**app-ads.txt**](https://ldsoulza.github.io/misterbiblia/app-ads.txt) | Authorized digital sellers for AdMob |
 
 ---
 
