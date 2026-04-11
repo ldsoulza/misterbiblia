@@ -32,8 +32,8 @@ header {
 }
 
 header img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 1rem;
 }
 
@@ -49,6 +49,22 @@ header p {
   color: var(--light-brown);
   margin-top: 0.3rem;
   font-size: 1rem;
+}
+
+.store-badge {
+  display: inline-block;
+  margin-top: 0.8rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.store-badge:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.store-badge img {
+  height: 60px;
 }
 
 nav {
@@ -116,7 +132,8 @@ p {
   color: var(--text-light);
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0.5rem 0 1rem 1.5rem;
 }
 
