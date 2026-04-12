@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Mister Bible" width="120" height="120" style="border-radius: 50%;">
+  <img src="assets/launch_icon.webp" alt="Mister Bible" width="120" height="120" style="border-radius: 50%;">
 </p>
 
 <h1 align="center">Mister Bible</h1>
