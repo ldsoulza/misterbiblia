@@ -51,20 +51,44 @@ header p {
   font-size: 1rem;
 }
 
-.store-badge {
+.market-btn {
   display: inline-block;
-  margin-top: 0.8rem;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.store-badge:hover {
-  transform: scale(1.05);
-  opacity: 0.9;
+  margin-top: 1rem;
+  padding: 0.4rem 1rem;
+  padding-left: 2.8125rem;
+  border-radius: 8px;
+  border: 1px solid rgba(253, 151, 19, 0.3);
+  background-color: rgba(96, 44, 2, 0.5);
+  background-position: center left 0.75rem;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
   text-decoration: none;
+  transition: border-color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
-.store-badge img {
-  height: 60px;
+.market-btn .market-button-title {
+  display: block;
+  color: var(--text-white);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.market-btn .market-button-subtitle {
+  display: block;
+  margin-bottom: -0.25rem;
+  color: #D9C4B0;
+  font-size: 0.75rem;
+}
+
+.market-btn:hover {
+  background-color: rgba(96, 44, 2, 0.8);
+  border-color: var(--amber);
+  text-decoration: none;
+  opacity: 1;
+}
+
+.google-btn {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiI+Cjxwb2x5Z29uIHN0eWxlPSJmaWxsOiNGRDk3MTM7IiBwb2ludHM9IjI5LjUzLDAgMjkuNTMsMjUxLjUwOSAyOS41Myw1MTIgMjk5LjAwNCwyNTEuNTA5ICIvPgo8cG9seWdvbiBzdHlsZT0iZmlsbDojRkZCODREOyIgcG9pbnRzPSIzNjkuMDY3LDE4MC41NDcgMjYyLjE3NSwxMTkuNDY3IDI5LjUzLDAgMjk5LjAwNCwyNTEuNTA5ICIvPgo8cG9seWdvbiBzdHlsZT0iZmlsbDojQzA1QTAwOyIgcG9pbnRzPSIyOS41Myw1MTIgMjkuNTMsNTEyIDI2Mi4xNzUsMzgzLjU1MSAzNjkuMDY3LDMyMi40NyAyOTkuMDA0LDI1MS41MDkgIi8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGNUU2RDM7IiBkPSJNMzY5LjA2NywxODAuNTQ3bC03MC4wNjMsNzAuOTYxbDcwLjA2Myw3MC45NjFsMTA4LjY4OC02Mi44NzdjNi4yODgtMy41OTMsNi4yODgtMTEuNjc3LDAtMTUuMjdMMzY5LjA2NywxODAuNTQ3eiIvPgo8L3N2Zz4K);
 }
 
 nav {
